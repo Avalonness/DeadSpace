@@ -1,0 +1,58 @@
+@keyframes cloudLoop {
+  0% {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+  100% {
+    -webkit-transform: translate3d(-50%,0,0);
+    transform: translate3d(-50%,0,0);
+}
+}
+
+
+
+.resume_container{
+  height: 100vh;
+  background-image: url("../../assets/img/bg2.jpg");
+  background-size: cover;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.resume_content {
+  width: 70%;
+  margin: auto;
+}
+
+.resume_presentation {
+  width: 50%;
+  padding-top: 200px;
+  text-align: justify;
+}
+
+.resume_presentation h2 {
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: antiquewhite 0.3px 0.5px 0.7px;
+
+}
+
+.resume_presentation p {
+  padding-top: 30px;
+  text-shadow: antiquewhite 0.3px 0.5px 0.7px;
+  overflow: hidden;
+}
+
+.cloud_animation {
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 1;
+  -webkit-animation: 80s linear infinite cloudLoop;
+  animation: 80s linear infinite cloudLoop;
+}
+
+

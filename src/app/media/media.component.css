@@ -1,0 +1,26 @@
+.media_container {
+  height: 100vh;
+  background-image: url('../../assets/img/bg3.jpg');
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.media_carrousel {
+  width: 70%;
+  margin: auto;
+  border-radius: 5px;
+  padding: 25px 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+
+}
+
+/* --------------------------------------
+            GESTION CARROUSEL
+  -------------------------------------- */
+
